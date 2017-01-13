@@ -53,27 +53,35 @@ li a:hover {
   min-width: 550px;
   max-height: 1500px;
   min-height: 550px;
-  margin: 200px 100px 200px 200px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  /*margin: 200px 100px 200px 200px;*/
   border-radius: 8px;
   padding: 10px 30px 30px 30px;
   opacity: 0.75;
   font-size: 100%;
 }
 
-.index-paragragh-1 {
-  font-size: 120%;
+.index-header {
+  font-size: 250%;
   text-align: center;
 }
 
 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
   border-radius: 50%;
   justify-content: center;
   align-items: center;
   opacity: 1;
 }
 
-.index-paragragh-2 {
-  font-size: 100%;
+.index-footer {
+  font-size: 200%;
   text-align: center;
 }
 
@@ -90,6 +98,19 @@ img {
   font-size: 100%;
 }
 
+.bio-header {
+  font-size: 250%;
+  text-align: center;
+}
+
+.bio-paragraph-1 {
+
+}
+
+.bio-footer {
+
+}
+
 .cv-box {
   background-color: rgb(100, 100, 100);
   max-width: 800px;
@@ -103,6 +124,19 @@ img {
   font-size: 100%;
 }
 
+.cv-header {
+  font-size: 250%;
+  text-align: center;
+}
+
+.cv-paragraph-1 {
+
+}
+
+.cv-footer {
+
+}
+
 .contact-box {
   background-color: rgb(100, 100, 100);
   max-width: 800px;
@@ -114,4 +148,17 @@ img {
   padding: 10px 30px 30px 30px;
   opacity: 0.75;
   font-size: 100%;
+}
+
+.contact-header {
+  font-size: 250%;
+  text-align: center;
+}
+
+.contact-paragraph-1 {
+
+}
+
+.contact-footer {
+
 }
