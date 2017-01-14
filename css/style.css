@@ -91,7 +91,11 @@ img {
   min-width: 550px;
   max-height: 1500px;
   min-height: 550px;
-  margin: 200px 100px 200px 200px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin: 200px 100px 200px 200px; */
   border-radius: 8px;
   padding: 10px 30px 30px 30px;
   opacity: 0.75;
@@ -99,11 +103,11 @@ img {
 }
 
 .bio-header {
-  font-size: 250%;
+  font-size: 200%;
   text-align: center;
 }
 
-.bio-paragraph-1 {
+.bio-paragraph {
 
 }
 
@@ -117,7 +121,11 @@ img {
   min-width: 550px;
   max-height: 1500px;
   min-height: 550px;
-  margin: 200px 100px 200px 200px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin: 200px 100px 200px 200px; */
   border-radius: 8px;
   padding: 10px 30px 30px 30px;
   opacity: 0.75;
@@ -129,7 +137,7 @@ img {
   text-align: center;
 }
 
-.cv-paragraph-1 {
+.cv-paragraph {
 
 }
 
@@ -160,5 +168,9 @@ img {
 }
 
 .contact-footer {
+
+}
+
+.skills {
 
 }
