@@ -7,6 +7,9 @@
     <link href="https://fonts.googleapis.com/css?family=Kreon" rel="stylesheet">
   </head>
   <body>
+    <header class="header">
+
+    </header>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -17,15 +20,34 @@
     </nav>
 
     <div class="contact-box">
-      <header class="contact-header">
-        Get in touch with me
-      </header>
-        <p class="contact-paragragh-1">Get in touch with me</p>
-        <a href="mailto:craig.frewer@hotmail.com">Email me</a>
-      <footer class="contact-footer">
+      <!-- This code within the form was created by Thomas Rose and was taken from Codepen -->
+      <form>
+  <h1 class="form-title">Contact Me</h1>
+  <p>Use this page to send me an email and I will get back in touch as soon as I can.
+  <!-- Text Input -->
+  <div class="form-group">
+    <label for="form-input">Name:</label>
+    <input type="text" id="form-input">
+  </div>
 
-      </footer>
+  <div class="form-group">
+    <label for="form-input">Email:</label>
+    <input type="text" id="form-input">
+  </div>
+
+  <!-- Text Area -->
+  <div class="form-group">
+    <label for="form-textarea">Message:</label>
+    <textarea rows="4" cols="70" id="form-textarea"></textarea>
+  </div>
+
+  <!-- Submit Button -->
+  <button>Submit</button>
+</form>
     </div>
-
+    <footer class="footer">
+      <p>Contact number: 01234 567890</p>
+      <a href="mailto:craig.frewer@hotmail.com">Email me</a>
+    </footer>
   </body>
 </html>
